@@ -1,0 +1,39 @@
+body{
+  margin: 0px;
+}
+a:link { color: orange; text-decoration: none;}
+a:visited { color: skyblue; text-decoration: none;}
+a:hover { color: blue; text-decoration: underline;}
+
+  h1{
+    font-size:45px;
+    text-align: center;
+    border-bottom: 1px solid green;
+    margin:0px;
+    padding:20px;
+  }
+  #nowpage{
+    color:brown;
+    font-weight: 600;
+  }
+  ol{
+    border-right: 1px solid green;
+    width:150px;
+    margin: 0px;
+    padding-left:44px;
+    padding-top: 20px;
+  }
+  #grid{
+    display:grid;
+    grid-template-columns: 200px 1fr;
+  }
+#img{
+padding:30px;
+height: 300px;
+width: 300px;
+}
+@media(max-width:570px){
+#grid{
+  display:block;
+}
+    }

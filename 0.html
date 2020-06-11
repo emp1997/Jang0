@@ -3,27 +3,48 @@
 <head>
   <title>Jang chung In</title>
   <meta charset="utf-8">
+ <link rel="stylesheet" href="style.css">
+ <!--
+ -->
 </head>
 
 <body>
-  <h1><a href="0.html">장청인 페이지</a><h1>
+
+  <h1><a href="0.html">장청인 페이지</a></h1>
+<div id="grid">
   <ol>
-    <li><a href="1.html">Way back home</a></li>
-    <li><a href="2.html">시차</a></li>
-    <li><a href="3.html">괜찮아 떠나</a></li>
+      <li><a href="1.html">Way back home</a></li>
+      <li><a href="2.html">시차</a></li>
+      <li><a href="3.html">괜찮아 떠나</a></li>
   </ol>
 
-  <h2>웹코딩 연습하기</h2>
-  <h3>장청인(Jang chung In)</h3>
-  <p>Hypertext Markup Language(<a href="https://www.w3.org/TR/2011/WD-html5-20110405/"
-    target="_blank" title="W3">HTML</a>)
-    is the standard Markup
-  language for <strong>creating</Strong> <u>web pages</u> and <u>web applications</u>
-    <br><a href="https://terms.naver.com/entry.nhn?docId=1168097&cid=40942&categoryId=32838"
-    target="_blank">네이버 정의</a>
-  </p>
-  <p>
-    <h2>HTML을 이용한 간단한 웹사이트 만들기</h2>
-  </p>
+  <div>
+    <h2>웹코딩 연습하기</h2>
+    <h3>장청인(Jang chung In)</h3>
+    <p>Hypertext Markup Language(<a href="https://www.w3.org/TR/2011/WD-html5-20110405/"
+      target="_blank" title="W3">HTML</a>)
+      is the standard Markup
+    language for <strong>creating</Strong> <u>web pages</u> and <u>web applications</u>
+      <br><a href="https://terms.naver.com/entry.nhn?docId=1168097&cid=40942&categoryId=32838"
+      target="_blank">네이버 정의</a>
+    </p>
+    <p>
+      <h2>HTML을 이용한 간단한 웹사이트 만들기</h2>
+      이게 처음 만들어서 계속 수정하고 있는 사이트 입니다.
+      <br>지금 왼쪽편의 줄이 끝까지 안내려가고 이 글의 길이를 따라서
+      <br>내려가고 있는데 쪼금 더 공부해서 저 줄을 끝까지
+      <br>내려가게 하고 싶습니다.
+      <br><br>왼쪽편의 목록에 페이지를 들어가시면 각각의
+      <br>페이지로 연결되는데 그 페이지안에서 페이지를 한번 더
+      <br>클릭하시면 youtube로 노래를 들으실 수 있습니다.
+    </p>
+    <input type="button" value="night" onclick="
+    document.querySelector('body').style.backgroundColor= 'black';
+    document.querySelector('body').style.color= 'white';">
+    <input type="button" value="day"onclick="
+    document.querySelector('body').style.backgroundColor= 'white';
+    document.querySelector('body').style.color= 'black';">
+  </div>
+</div>
 </body>
 </html>
